@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/20a538d92d.js" crossorigin="anonymous"></script>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="js/slider.js">
+    <!-- bootstrap -->
+    <!-- JavaScript Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+    <title>FOOD-TRUCK Menjar Calent</title>
+</head>
+
+<body>
+
+    <body id="body">
+        <header style="background-color:#EBC32A ;position: fixed; top: 0; width: 100%; z-index: 100;">
+
+            <div class="row-c" style="text-align:center;text-align: center;display: flex; align-items: center;">
+
+                <div class="column-4 panel">
+                    <img class="logo" src="img/xavi-def.png" alt="">
+                    <img class="logo_responsive" src="img/logo_responsive.png" alt="">
+
+                </div>
+                <div class="column-4 panel">
+
+                    <a href="tel:+34678567876"> <img class="icono_peque" src="img/móvil.png" alt="">+34678567876 </a>
+
+                </div>
+
+                <div class="column-4 panel">
+                    <a href="https://wa.me/661023069"> <img class="icono_peque" src="img/whatsapp2.png" alt=""> +34661023069</a>
+                </div>
+
+                <div class="column-4 volver">
+
+                    <button class="header-btn">=</button>
+
+                    <nav class="header-menu" style="align-items: center;">
+
+                        <ul>
+
+                            <li class="panel"><a style="color: black;" href="index.html"><button> <i class="fa-solid fa-turn-down-left"></i> Inicio</button></a></li>
+                            <li class="panel"><a style="color: black;" href="menjarFred.html"><button> <i class="fa-solid fa-turn-down-left"></i> Fríos</button></a></li>
+                            <li class="panel"><a style="color: black;" href="menjarCalent.html"><button> <i class="fa-solid fa-turn-down-left"></i> Calientes</button></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <script>
+            const header_btn = document.querySelector('.header-btn')
+            const header_menu = document.querySelector('.header-menu')
+            header_btn.addEventListener('click', () => {
+                if (header_menu.style.display != 'block') {
+                    header_menu.style.display = 'block'
+                    header_btn.innerHTML = 'X'
+                } else {
+                    header_menu.style.display = 'none'
+                    header_btn.innerHTML = '='
+                }
+            })
+        </script>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+
+            <div class="flex" style="top: 125px;">
+
+                <h1>BEBIDAS</h1>
+            </div>
+
+        </section>
+
+
+        <section class="row-c">
+            <div class="column-2">
+                <div class="cards-grid-m flex" style="margin-left: 20px;margin-right: 20px;">
+
+                    <div class="flip-card-m column-4">
+                        <div class="flip-card-inner-m">
+                            <div class="flip-card-front-m" style="background-image:url('img/agua.webp');">
+
+                            </div>
+                            <div class="flip-card-back-m">
+                                <p>Precio</p>
+                                <p>Descripción</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p style="text-align: center;">Agua</p>
+                    </div>
+
+
+                    <div class="flip-card-m column-4">
+                        <div class="flip-card-inner-m">
+                            <div class="flip-card-front-m" style="background-image:url('img/coca.jpg');">
+
+
+                            </div>
+                            <div class="flip-card-back-m">
+                                <p>Precio</p>
+                                <p>Descripción</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p style="text-align: center;">Coca-cola</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column-2">
+                <div class="cards-grid-m flex" style="margin-left: 20px;margin-right: 20px;">
+
+                    <div class="flip-card-m column-4">
+                        <div class="flip-card-inner-m">
+                            <div class="flip-card-front-m" style="background-image:url('img/pepsi.jpg');">
+
+                            </div>
+                            <div class="flip-card-back-m">
+                                <p>Precio</p>
+                                <p>Descripción</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p style="text-align: center;">Pepsi</p>
+                    </div>
+
+
+                    <div class="flip-card-m column-4">
+                        <div class="flip-card-inner-m">
+                            <div class="flip-card-front-m" style="background-image:url('img/seven-up.jpg');">
+
+
+                            </div>
+                            <div class="flip-card-back-m">
+                                <p>Precio</p>
+                                <p>Descripción</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p style="text-align: center;">Seven up</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+        <br>
+        <br>
+
+
+        <section class="row-c">
+            <div class="column-2">
+                <div class="cards-grid-m flex" style="margin-left: 20px;margin-right: 20px;">
+
+                    <div class="flip-card-m column-4">
+                        <div class="flip-card-inner-m">
+                            <div class="flip-card-front-m" style="background-image:url('img/fanta_naranja.png');">
+
+                            </div>
+                            <div class="flip-card-back-m">
+                                <p>Precio</p>
+                                <p>Descripción</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p style="text-align: center;">Fanta de naranja</p>
+                    </div>
+
+
+                    <div class="flip-card-m column-4">
+                        <div class="flip-card-inner-m">
+                            <div class="flip-card-front-m" style="background-image:url('img/agua_coco.jpeg');">
+
+
+                            </div>
+                            <div class="flip-card-back-m">
+                                <p>Precio</p>
+                                <p>Descripción</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p style="text-align: center;">Agua de coco</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column-2">
+                <div class="cards-grid-m flex" style="margin-left: 20px;margin-right: 20px;">
+
+                    <div class="flip-card-m column-4">
+                        <div class="flip-card-inner-m">
+                            <div class="flip-card-front-m" style="background-image:url('img/nestea.png');">
+
+                            </div>
+                            <div class="flip-card-back-m">
+                                <p>Precio</p>
+                                <p>Descripción</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p style="text-align: center;">Nestea</p>
+                    </div>
+
+
+                    <div class="flip-card-m column-4">
+                        <div class="flip-card-inner-m">
+                            <div class="flip-card-front-m" style="background-image:url('img/cacaolat.webp');">
+
+
+                            </div>
+                            <div class="flip-card-back-m">
+                                <p>Precio</p>
+                                <p>Descripción</p>
+                            </div>
+                        </div>
+                        <br>
+                        <p style="text-align: center;">Cacaolat</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+    </body>
+
+</html>
