@@ -3,6 +3,94 @@
 }
 
 
+/* botones  */
+
+.boton-ini {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background-color: #d0c8c8;
+    color: black;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.boton-ini:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.boton-cal {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background-color: #d0c8c8;
+    color: black;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.boton-cal:hover {
+    background-color: #ab2424;
+    /* Green */
+    color: white;
+}
+
+.boton-frio {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background-color: #d0c8c8;
+    color: black;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.boton-frio:hover {
+    background-color: #27b8a3;
+    /* Green */
+    color: white;
+}
+
+.boton-be {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background-color: #d0c8c8;
+    color: black;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.boton-be:hover {
+    background-color: #e3b50d;
+    /* Green */
+    color: white;
+}
+
+.boton-lupa {
+    border-radius: 35px;
+}
+
+.boton-lupa:hover {
+    background-color: #6e13dd;
+    /* Green */
+}
+
+.boton-lupa:hover .cambio {
+    color: white;
+}
+
+
+/* .cambio:hover {
+    
+} */
+
+
+/* fin botones */
+
+
 /* 
 menu */
 
@@ -100,7 +188,7 @@ h1 span {
     display: grid;
     place-items: center;
     /* padding: 32px; */
-    background: linear-gradient(150deg, #943d3d, #177791, #943d3d, #177791, #177791, #13B6E2);
+    background: linear-gradient(150deg, #943d3d, #177791, #943d3d, #177791, #943d3d, #177791);
     transform: rotateY(180deg);
     background-size: 400% 300%;
     animation: BgGradient 10s ease infinite;
@@ -815,5 +903,11 @@ frame {
     frame {
         width: 100px;
         height: 100px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .column-4 {
+        width: 100%;
     }
 }
