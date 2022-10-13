@@ -64,7 +64,7 @@ h1 span {
 /* FLIP CARD */
 
 .flip-card {
-    width: 320px;
+    width: 300px;
     height: 304px;
     perspective: 2000px;
 }
@@ -100,7 +100,7 @@ h1 span {
     display: grid;
     place-items: center;
     /* padding: 32px; */
-    background: linear-gradient(150deg, #FFCFA1, #FFCFA1, #177791, #DFD5CD, #177791, #13B6E2);
+    background: linear-gradient(150deg, #943d3d, #177791, #943d3d, #177791, #177791, #13B6E2);
     transform: rotateY(180deg);
     background-size: 400% 300%;
     animation: BgGradient 10s ease infinite;
@@ -174,8 +174,9 @@ h1 span {
     /* display: grid; */
     place-items: center;
     /* padding: 32px; */
-    background-color: #B1CFC8;
+    background-color: #943d3d;
     transform: rotateY(180deg);
+    color: white;
 }
 
 .flip-card-m:hover .flip-card-inner-m {
@@ -601,7 +602,7 @@ h6 {
 
 .pie-pagina {
     width: 90%;
-    background-color: #524d39;
+    background-color: #943d3d;
     ;
 }
 
@@ -706,7 +707,7 @@ body {
 }
 
 .column-3:hover {
-    background-color: #524821;
+    background-color: #943d3d;
 }
 
 .column-4 {
@@ -716,7 +717,7 @@ body {
 }
 
 .panel:hover {
-    background-color: #524821;
+    background-color: #943d3d;
 }
 
 .column-5 {
