@@ -848,7 +848,7 @@ frame {
     width: 0px;
 }
 
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 900px) {
     .volver {
         display: block;
     }
