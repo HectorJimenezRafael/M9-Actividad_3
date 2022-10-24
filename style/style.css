@@ -2,6 +2,11 @@
     font-family: 'Oswald', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Raleway:wght@500&display=swap');
+.numeros {
+    font-family: 'Raleway', sans-serif;
+}
+
 
 /* botones  */
 
@@ -16,8 +21,24 @@
 }
 
 .boton-ini:hover {
-    background-color: #4CAF50;
+    background-color: #F4F1BB;
     /* Green */
+    color: white;
+}
+
+.boton-ini-2 {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background-color: #d0c8c8;
+    color: #5CA4A9;
+    border-radius: 28px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.boton-ini-2:hover {
+    background-color: #444a92;
     color: white;
 }
 
@@ -26,7 +47,8 @@
     /* Safari */
     transition-duration: 0.4s;
     background-color: #d0c8c8;
-    color: black;
+    color: #5CA4A9;
+    font-size: 23px;
     border-radius: 28px;
     cursor: pointer;
 }
@@ -42,7 +64,8 @@
     /* Safari */
     transition-duration: 0.4s;
     background-color: #d0c8c8;
-    color: black;
+    color: #5CA4A9;
+    font-size: 23px;
     border-radius: 28px;
     cursor: pointer;
 }
@@ -58,7 +81,8 @@
     /* Safari */
     transition-duration: 0.4s;
     background-color: #d0c8c8;
-    color: black;
+    color: #5CA4A9;
+    font-size: 23px;
     border-radius: 28px;
     cursor: pointer;
 }
@@ -638,8 +662,8 @@ tr:hover td {
 }
 
 .icono_peque {
-    height: 125px;
-    width: 125px;
+    height: 75px;
+    width: 75px;
 }
 
 .logo_responsive {
